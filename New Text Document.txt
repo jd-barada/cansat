@@ -1,0 +1,26 @@
+MAIN OBJECTIVES :
+Objective: Design, develop, and deploy a CANSAT (<1.0 kg) for a competition, adhering to specific structural,
+power, communication, and recovery requirements.
+Specifications:
+● Weight: <1.0 kg (+/- 0.050 kg).
+● Dimensions: Cylindrical body (0.15 m diameter x 0.40 m height).
+● Materials: Prioritize Made in India components.
+● Color: Fluorescent colors (pink, red, or orange) with the Indian flag.
+Data Collection:
+● Sensors: Collect position, altitude, pressure, temperature, orientation, power, and system status.
+● GNSS: Enhanced weightage for using NavIC (Indian GNSS).
+● Data Storage: Real-time transmission to the ground station; onboard storage in case of telemetry loss.
+Descent & Recovery:
+● Mechanisms: Two-stage descent (parachute at ejection, secondary system at 500 m).
+● Descent Rate: Initial 20 m/s, reduced to 1-3 m/s by secondary mechanism.
+● Stability: Mechanical gyroscopes for stability during descent.
+● Recovery: Assisted by fluorescent colors and a 92 dB audio beacon; HAM radio/advanced
+beacons support tracking.
+Ground Station:
+● Telemetry: Real-time data transmitted and displayed at 1 Hz on a portable ground station.
+● Commands: Start telemetry and zero sensors pre-launch; data saved in a .csv file for post-launch
+analysis.
+Resilience:
+● Survivability: Structure can withstand 15 Gs during launch and 30 Gs shock.
+● Power: 2-hour battery life pre-launch; approved battery types only.
+
